@@ -1,0 +1,462 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*/////////////////////////////////////ここから/////////////////////////////////////*/
+
+html,body{
+    width: 1600px;
+    height: 1200px;
+}
+
+header{
+    background-color: #4b5632;
+    width: 100%;
+    height: 76.42%;
+}
+
+.header-box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.header-left{
+    width: 42.75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left p{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.13em;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin: auto;
+}
+
+.header-center{
+    width: 14.5%;
+    height: 100%;
+    background-color: #202f18;
+}
+
+.center-circle{
+    background-color: #ffffff;
+    width: 4.75em;
+    height: 4.75em;
+    border-radius: 50%;
+    margin: 7.19em 4.75em 2.34em 4.88em;
+}
+
+.title-box{
+    width: 100%;
+    display: flex;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    display: inline-block;
+}
+
+.onm{
+    width: 35%;
+    padding-right: 0.69em;
+}
+
+.subtitle{
+    width: 10%;
+    padding-right: 3.34em;
+}
+
+.onm h2{
+    font-family: ten-mincho, serif;
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+}
+
+.subtitle p{
+    font-family: ten-mincho, serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.25;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+}
+
+
+.center-menu{
+    width: 100%;
+    height: 14.18%;
+    text-align: center;
+    margin-top: 4.69em;
+    margin-bottom: 10.63em;
+}
+
+.center-menu p{
+    font-family: ten-mincho, serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.88;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+}
+
+.center-under{
+    width: 10%;
+    margin: auto;
+}
+
+.scroll{
+    font-family: adobe-garamond-pro, serif;
+    font-size: 0.63em;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    display: flex;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin-bottom: 1.5em;
+}
+
+.arrow-box{
+    transform:rotate(90deg);
+}
+
+.arrow{
+    width: 3.13em;
+    height: 0.44em;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    transform: skew(45deg);
+}
+
+.header-right{
+    width: 42.75%;
+    height: 100%;
+}
+
+.switch{
+    display: flex;
+    width: 22%;
+    margin-left: auto;
+}
+
+.switch-circle{
+    background-color: #ffffff;
+    width: 0.88em;
+    height: 0.88em;
+    border-radius: 50%;
+    margin-top: 0.88em;
+    margin-right: 0.94em;
+}
+
+.on{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.25;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    margin-top: 0.2em;
+    margin-right: 1em;
+}
+
+.partition{
+    border-left: solid 1px #fff;
+    width: 0.1em;
+    height: 0.88em;
+    margin-top: 0.88em;
+    margin-right: 1em;
+}
+
+.off{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.25;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    margin-top: 0.2em;
+    margin-right: 0.94em;
+}
+
+/*header end*/
+
+footer{
+    background-color: #ffffff;
+    width: 100%;
+    height: 23.58%;
+}
+
+.footer-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.footer-left{
+    width: 55%;
+    height: 58.31%;
+    margin-top: 7.4%;
+    padding-left: 14.4%;
+}
+
+.footer-squ{
+    background-color: #6f856c;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-txt-box{
+    width: 19.19%;
+    height: 69.27%;
+    margin-top: 5.4%;
+    display: flex;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin-left: 5.25%;
+}
+
+.footer-txt{
+    font-family: yu-mincho-pr6, sans-serif;
+    font-size: 1.13em;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    color: #163384;
+}
+
+.footer-txt-box-mob{
+    display: none;
+}
+
+.footer-right{
+    width: 25.81%;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    
+}
+
+.footer-title{
+    font-family: adobe-garamond-pro, serif;
+    font-size: 4.5em;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.15em;
+    color: #163283;
+    margin-right: 71.44%;
+    margin-top: 6.36%;
+}
+
+/*ハンバーガーメニュー*/
+.drow-title{
+    font-family: ten-mincho, serif;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    padding-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.drow-menu p{
+    font-family: ten-mincho, serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.88;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    margin-bottom: 0.3em;
+    margin-left: 0.5em;
+}
+
+#nav-drawer {
+    position: relative;
+  }
+  
+  /*チェックボックス等は非表示に*/
+  .nav-unshown {
+    display:none;
+  }
+  
+  /*アイコンのスペース*/
+  #nav-open {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+    vertical-align: middle;
+  }
+  
+  /*ハンバーガーアイコンをCSSだけで表現*/
+  #nav-open span, #nav-open span:before, #nav-open span:after {
+    position: absolute;
+    height: 3px;/*線の太さ*/
+    width: 25px;/*長さ*/
+    border-radius: 3px;
+    background: #fff;
+    display: block;
+    content: '';
+    cursor: pointer;
+  }
+  #nav-open span:before {
+    bottom: -8px;
+  }
+  #nav-open span:after {
+    bottom: -16px;
+  }
+  
+  /*閉じる用の薄黒カバー*/
+  #nav-close {
+    display: none;/*はじめは隠しておく*/
+    position: fixed;
+    z-index: 99;
+    top: 0;/*全体に広がるように*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    transition: .3s ease-in-out;
+  }
+  
+  /*中身*/
+  #nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;/*最前面に*/
+    width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+    max-width: 330px;/*最大幅（調整してください）*/
+    height: 100%;
+    background: #202f18;/*背景色*/
+    transition: .3s ease-in-out;/*滑らかに表示*/
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);/*左に隠しておく*/
+  }
+  
+  /*チェックが入ったらもろもろ表示*/
+  #nav-input:checked ~ #nav-close {
+    display: block;/*カバーを表示*/
+    opacity: .5;
+  }
+  
+  #nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*中身を表示（右へスライド）*/
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+  }
+
+  @media screen and (min-width:480px) {
+    #nav-open {
+      display:none;
+    }
+  }

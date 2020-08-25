@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP模写</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <!--mobile menu-->
+            <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown">
+                <label id="nav-open" for="nav-input"><span></span></label>
+                <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                <div id="nav-content">
+                    <div class="drow-menu">
+                        <h2 class="drow-title">陰陽</h2>
+                        <p class="menu-a">お店について</p>
+                        <p class="menu-b">お品書き</p>
+                        <p class="menu-c">日記</p>
+                        <p class="menu-d">地図</p>
+                    </div>
+                </div>
+            </div>
+            <!--menu end-->
+            <div class="header-left">
+                <p>中尊寺弁財天堂のそばに佇む日本茶カフェ「陰陽」<br>
+                    静寂な空間と眼前の池が、心の陰陽を映し出す。<br>
+                    調和と自由、精神のお休み処へようこそ</p>
+            </div>
+            <div class="header-center">
+                <div class="center-circle">
+                </div>
+                <div class="title-box">
+                    <div class="subtitle">
+                        <p>日本茶カフェ</p>
+                    </div>
+                    <div class="onm">
+                        <h2>陰陽</h2>
+                    </div>
+                </div>
+                <!--pc,tablet menu-->
+                <div class="center-menu">
+                    <p class="menu-1">お店について</p>
+                    <p class="menu-2">お品書き</p>
+                    <p class="menu-3">日記</p>
+                    <p class="menu-4">地図</p>
+                </div>
+                <div class="center-under">
+                    <p class="scroll">SCROLL</p>
+                    <div class="arrow-box">
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="switch">
+                    <div class="switch-circle"></div>
+                    <p class="on">ON</p>
+                    <div class="partition"></div>
+                    <p class="off">OFF</p>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--header end-->
+    <footer>
+        <div class="footer-box">
+            <div class="footer-left">
+                <div class="footer-squ"></div>
+            </div>
+            <!--pc,tablet-->
+            <div class="footer-txt-box">
+                <p class="footer-txt">金色堂の向かいに<br>
+                    周りを池で囲まれて<br>
+                    水鏡は心の表裏を<br>
+                    弁財天は琵琶を弾く<br>
+                    その音色と美しい<br>
+                    豊かな調和を生み出<br>
+                    して生み出している<br>
+                    のです。</p>
+            </div>
+            <!--pc,tablet end-->
+            <!--mobile-->
+            <div class="footer-txt-box-mob">
+                <p class="footer-txt-mob">金色堂の向かいに周りを池で囲まれて水鏡は心の表裏を弁財天は琵琶を弾くその音色と美しい豊かな調和を生み出して生み出しているのです。</p>
+            </div>
+            <!--mobile end-->
+            <div class="footer-right">
+                <h2 class="footer-title">Onmyo</h2>
+            </div>
+        </div>
+    </footer>
+<!--footer emd-->
+<script>
+    (function(d) {
+      var config = {
+        kitId: 'uka2rbn',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script> 
+</body>
+</html>
